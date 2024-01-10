@@ -7,6 +7,7 @@ public:
             "asdfghjkl",
             "zxcvbnm"
         };
+        
         for(int i=0;i<row.size();i++){
             for(auto &ch:row[i]){
                 loc.insert(make_pair(ch,i));
