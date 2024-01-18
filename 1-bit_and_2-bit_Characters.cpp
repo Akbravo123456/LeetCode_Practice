@@ -22,9 +22,9 @@ public:
 		    }
 		 	else if((l < bits.size()) && (l+1) < (bits.size()))
 		 	{
-                if(bits[l] == 1 and bits[l+1] == 0)
+                if(bits[l] == 1 && bits[l+1] == 0)
                 l = l + 2;
-                else if(bits[l] == 1 and bits[l+1] == 1)
+                else if(bits[l] == 1 && bits[l+1] == 1)
                 l = l + 2;
                 else
                 l++;
