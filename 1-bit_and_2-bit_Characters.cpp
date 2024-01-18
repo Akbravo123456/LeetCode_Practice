@@ -20,7 +20,7 @@ public:
                 
                 return false;
 		    }
-		 	else if((l < bits.size()) and (l+1) < (bits.size()))
+		 	else if((l < bits.size()) && (l+1) < (bits.size()))
 		 	{
                 if(bits[l] == 1 and bits[l+1] == 0)
                 l = l + 2;
